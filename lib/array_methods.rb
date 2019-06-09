@@ -1,12 +1,8 @@
 def find_element_index(array, value_to_find)
-  counter = 0
-  #look at each item in the array
-  while counter < array.length {
-    if array[counter] == value_to_find
+  array.length.times do |index|
+    if array[index] == value_to_find
       puts "true"
     end
-    counter += 1
-    }
   end
 end
 
