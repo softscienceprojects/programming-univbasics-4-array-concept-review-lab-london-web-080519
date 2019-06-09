@@ -1,6 +1,9 @@
 def find_element_index(array, value_to_find)
   counter = 0
+  #look at each item in the array
   while counter < array.length do |index|
+    #does this item match the provided element?
+    #if yes, what is its index
     if array[index] == value_to_find
       puts "true"
     end
