@@ -14,9 +14,9 @@ end
 
 def find_max_value(array)
   counter = 0
-  answer = nil
+  answer = 0
   while array[counter] do
-    if array[counter] > array[counter-1]
+    if array[counter] > answer
       answer = array[counter]
     end
       counter +=1
